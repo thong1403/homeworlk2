@@ -1,0 +1,576 @@
+ /* bài 1
+
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chu1{
+   font-size: 30px;
+   margin-bottom: 30px;
+   margin-left: 20px;
+} 
+.chu8{
+  margin-left: 20px;
+} 
+.khungto{
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .khungto .bangnho1{
+   width: 500px;
+   height: 500px;
+ }
+ .bangnho1 .bangcon{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+ }
+ .bangcon .chu2{
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+ }
+ .bangnho1 .chu9{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ .bangnho1 .chu10{
+   margin-top: 20px;
+ }
+ .khungto .bangnho{
+   width: 500px;
+   height: 500px;
+   margin: 20px;
+ }
+ .bangnho1 .kitu{
+   font-size: 30px;
+   color: white;
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   margin-bottom: 20px;
+ }
+ .bangnho2 .kitu{
+   font-size: 30px;
+   color: white;
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   margin-bottom: 20px;
+ }
+ .bangnho3 .kitu{
+   font-size: 30px;
+   color: white;
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   margin-bottom: 20px;
+ }
+ .bangnho4 .kitu{
+   font-size: 30px;
+   color: white;
+   width:  50px;
+   height: 50px;
+   background-color: red;
+   margin-bottom: 20px;
+  }
+.bangnho .bangcon{
+  border-top: 1px solid black;
+} */
+
+/* bài 2 */
+
+/* .khungto{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border: 1px solid rgb(192, 182, 182);
+  flex-direction: row;
+  justify-content: center;
+}
+.khungto .khung1{
+  margin-right: 30px;
+}
+.khung1 .vitri{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.khung1 .sdt{
+  margin-top: 20px;
+}
+.khungto .khung2{
+  margin-top: 100px;
+  margin-left: 10px;
+}
+.khung2 .chu1{
+  width: 500px;
+  height: 30px;
+  border: 1px solid rgb(172, 167, 167);
+  padding-left: 10px;
+
+  
+}
+.khung2 .chu2{
+  width: 500px;
+  height: 40px;
+  border: 1px solid rgb(206, 194, 194);
+  margin-top: 10px;
+  padding-left: 10px;
+
+}
+.khung2 .chu5{
+  width: 500px;
+  height: 40px;
+  border: 1px solid rgb(206, 194, 194);
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.khung2 .chu3{
+  width: 500px;
+  height: 70px;
+  border: 1px solid rgb(206, 194, 194);
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.khung2 .chu4{
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: 1px solid rgb(213, 200, 200);
+  background-color: rgb(48, 189, 221);
+} */
+/* bài 3 */
+
+/* .khungto{
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  position: relative;
+
+}
+.khungto .bang1{
+  margin-top: 30px;
+  width: 2000px;
+  height: 350px;
+  background-color: rgb(71, 64, 64);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  margin-left: 10px;
+}
+.khungto .bang2{
+  margin-left: 20px;
+
+}
+.khungto .bangnho{
+  width: 500px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bang1 .chu0{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.bangnho .bangcon{
+  margin-right: 20px;
+}
+ */
+ /* bài 4 */
+ /* .khungto{
+  width: 1000px;
+  height: 700px;
+  border: 1px solid rgb(180, 170, 170);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .khungto .chu0{
+  text-align: center;
+  width: 1000px;
+  height: 700px;
+  background-color: blue;
+ }
+ .khungnho{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -100px;
+ 
+ }
+ .khungnho .khungcon{
+  margin: 10px;
+ }
+ 
+ 
+.khungcon .chu1{
+  color: white;
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 150px;
+} */
+
+/* bài 5 */
+/* .khungto{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.khungto .khungnho1{
+  padding-top: 20px;
+}
+.khunho2{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction:row;
+} */
+/* .demo{
+  background-color: pink;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  line-height: 500px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+} */ 
+
+/* baif 6 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    margin: 20px;
+    width: 700px;
+}
+.body h2{
+    margin-bottom: 20px;
+}
+.body .body1{ 
+    display: flex;
+    width: 100%;
+}
+.body1 .body10 {
+    width: 100%;
+    margin-right: 20px;
+}
+.body1 .body11{
+    width: 100%;
+}
+.body1 .body10 input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+.body1 .body11 input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+.body2{
+    width: 100%;
+}
+.body2 input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.body3{
+    width: 100%;
+}
+.body3 textarea {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.body4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.body4 button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
+.body4 .body40{
+    color: rgb(176, 171, 171);
+} */
+
+
+
+/* bài 7 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 1000px;
+    margin: 20px;
+    background-color: rgb(50, 92, 106);
+    color: white;
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.body1 .body10{
+    width: 100%;
+    height: 100%;
+}
+.body1 .body10 p {
+    width: 300px;
+    padding-top: 20px;
+}
+.body1 .body11{
+    width: 100%;
+    padding-left: 40px;
+}
+.body1 .body11 ul{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.body12 .body120{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.body120 .p1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(49, 153, 222);
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.body120 .p2{
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.body120 .p3{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(41, 63, 84);
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.body3 hr{
+    background-color: white;
+    border: none;
+    height: 0.5px;
+    box-shadow: 5px 5px 35px 5px #888888;
+}
+.body2{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+} */
+
+
+
+/* bài8 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 1200px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 40px;
+}
+.body1 {
+    width: 30%;
+}
+.body1 .body10{
+    width: 150px;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.body1 p {
+    width: 100%;
+    line-height: 25px;
+}
+.body2{
+    width: 25%;
+    padding-left: 25px;
+}
+.body2 h3{
+    padding-bottom: 25px;
+}
+.body2 .p{
+    border-bottom: thin red dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.body2 .p1{
+    padding-top: 10px;
+}
+.body3{
+    width: 25%;
+    padding-left: 30px;
+}
+.body3 h3{
+    padding-bottom: 25px;
+}
+.body3 .p{
+    border-bottom: thin red dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.body3 .p1{
+    padding-top: 10px;
+}
+.body4{
+    width: 20%;
+    padding-left: 30px;
+}
+.body4 h3{
+    padding-bottom: 25px;
+}
+.body4 .p{
+    border-bottom: thin red dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.body4 .p1{
+    padding-top: 10px;
+}
+.body4 .s{
+    padding-right: 20px;
+}
+.body4 .s3{
+    padding-left: 5px;
+} */
+
+
+/* bài9 */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 1000px;
+    margin: 20px;
+}
+.body0{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.body0 h1 {
+    width: 50%;
+    text-align: center;
+}
+.body1{
+    width: 100%;
+    display: flex;
+}
+.body1 .body10{
+    width: 100%;
+    border: 1px solid white;
+    padding: 30px;
+    box-shadow: 3px 3px 20px 3px #c8c4c4;
+    margin-right: 40px;
+}
+.body10 h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 17px;
+
+}
+.body10 p {
+    padding-top: 20px;
+}
+.body10 .p{
+    color: rgb(176, 171, 171);
+    padding-bottom: 10px;
+}
+.body10 .p1{
+    color: blue;
+    padding-bottom: 10px;
+}
+.body11{
+    line-height: 30px;
+    padding-left: 30px;
+}
+.body11 .p{
+    color: rgb(176, 171, 171);
+    padding-bottom: 20px;
+}
+.body11 .p2{
+    color: rgb(176, 171, 171);
+    padding-top: 20px;
+} */
+
+
+#a{
+width: 300px;
+height: 300px;
+background-color: lightblue;
+color: white;
+text-align: center;
+line-height: 300px;
+border-radius: 10px;
+}
+
+
